@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    background: url(https://as2.ftcdn.net/v2/jpg/02/81/89/73/1000_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg);
+}
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
+nav {
+    margin: 1rem 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+.z, .a  {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #64e6fd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article {
+    margin-bottom: 2rem;
+    
+}
+h2 {
+    color: #2a4d69;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2a4d69;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.box {
+    border-radius: 56px;
+    background-color: rgb(166, 255, 0);
+    width: 100px;
+    height: 100px;
+    transition: width 1s, height 1s, transform 1s;
+    display: inline-block;
+    position: absolute;
+    padding: 34px;
+    left: 30px;
+    top: 10px;
+    background-image: url("./YwCZTR\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+        animation: moveBox 5s infinite alternate, rotateBox 5s infinite linear;
+    }
+
+/* Define the keyframes for rotation */
+@keyframes rotateBox {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.img{  
+    position: relative; 
+
+}
+@media screen and (max-width: 600px) {
+    nav :-moz-any(dispaly-bal);
+}
+
